@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SearchController.swift
 //  Faj
 //
 //  Created by Majid Osman on 2018-11-08.
@@ -7,14 +7,13 @@
 //
 
 import UIKit
+import LBTAComponents
 
-class ViewController: UIViewController {
 
+class SearchController : UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        collectionView.backgroundColor = .gray
+        
     }
-
-
 }
-
